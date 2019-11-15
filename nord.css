@@ -1,0 +1,103 @@
+:root {
+  --bg-color: #2e3440; /*change background*/
+  --text-color: #d8dee9; /*change text color*/
+  --md-char-color: #bf616a; /*change color of meta characetrs like `*` in markdown */
+  --meta-content-color: #b48ead; /*change color of meta contents like image text or link address in markdown */
+
+  --primary-color: #8fbcbb; /* color of primary buttons */
+  --primary-btn-border-color: #88c0d0;
+  --primary-btn-text-color: #d8dee9;
+
+  --window-border: 1px solid #eee; /*border for sidebar, etc*/
+
+  --active-file-bg-color: #eee; /*background color if list item in file tree or file list*/
+  --active-file-text-color: inherit;
+  --active-file-border-color: #777;
+
+  --side-bar-bg-color: var(--bg-color); /*change background of sidebar*/
+  --item-hover-bg-color: #4c566a; /*background of control items when hover, like menu in sidebar*/
+  --item-hover-text-color: inherit;
+  --monospace: monospace; /*monospace font for codes, fences*/
+}
+html {
+  font-size: 16px;
+  font-family: 'iA Writer Mono S', 'Cascadia Mono', 'Fira Code', monospace;
+  -webkit-font-smoothing: auto;
+}
+
+pre.md-meta-block {
+  background-color: var(--item-hover-bg-color);
+}
+
+.cm-header,
+.cm-property {
+  color: #bf616a !important;
+}
+
+.cm-atom,
+.cm-number {
+  color: #d8dee9 !important;
+}
+
+.CodeMirror-wrap {
+  background-color: #3b4252;
+}
+
+.cm-s-inner .cm-property {
+  color: var(--text-color);
+}
+
+a,
+.cm-link {
+  color: #8fbcbb !important;
+}
+
+.cm-comment,
+.cm-code {
+  color: #a3be8c !important;
+}
+
+.cm-tag {
+  color: #d08770 !important;
+}
+
+.cm-s-inner .cm-meta {
+  color: #b48ead !important;
+}
+
+.cm-s-inner .cm-attribute {
+  color: #d08770 !important;
+}
+
+.cm-s-inner .cm-builtin,
+.cm-s-inner .cm-keyword {
+  color: #ebcb8b !important;
+}
+
+.cm-s-inner .cm-def,
+.cm-s-inner .cm-variable {
+  color: #81a1c1 !important;
+}
+
+.cm-s-inner .cm-string {
+  color: #bf616a !important;
+}
+
+.cm-s-inner .cm-operator {
+  color: var(--text-color) !important;
+}
+
+.modal-content {
+  border-color: #4c566a;
+}
+input {
+  border: 1px solid #4c566a;
+}
+
+.megamenu-content {
+  color: #4c566a;
+}
+
+.CodeMirror-activeline-background {
+  background-color: #4c566a !important;
+}
