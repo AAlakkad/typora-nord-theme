@@ -61,7 +61,8 @@ a,
   color: #d08770 !important;
 }
 
-.cm-s-inner .cm-meta {
+.cm-s-inner .cm-meta,
+.cm-s-inner .cm-qualifier {
   color: #b48ead !important;
 }
 
@@ -75,11 +76,14 @@ a,
 }
 
 .cm-s-inner .cm-def,
-.cm-s-inner .cm-variable {
+.cm-s-inner .cm-variable,
+.cm-s-inner .cm-variable-2,
+.cm-s-inner .cm-variable-3 {
   color: #81a1c1 !important;
 }
 
-.cm-s-inner .cm-string {
+.cm-s-inner .cm-string,
+.cm-s-inner .cm-string-2 {
   color: #bf616a !important;
 }
 
@@ -100,4 +104,33 @@ input {
 
 .CodeMirror-activeline-background {
   background-color: #4c566a !important;
+}
+
+.cm-s-inner .cm-bracket {
+  color: #81a1c1 !important;
+}
+
+.cm-s-inner .cm-attribute,
+.cm-s-inner .cm-header,
+.cm-s-inner.cm-header,
+.cm-s-inner .cm-link,
+.cm-s-inner.cm-link {
+  color: #5e81ac !important;
+}
+.cm-positive,
+div.CodeMirror span.CodeMirror-matchingbracket,
+.cm-s-inner .cm-quote,
+.cm-s-inner.cm-quote {
+  color: #8fbcbb;
+}
+.cm-s-inner .cm-hr,
+.cm-s-inner.cm-hr {
+  color: #4c566a;
+}
+
+.cm-negative,
+.cm-error,
+.cm-invalidchar,
+div.CodeMirror span.CodeMirror-nonmatchingbracket {
+  color: #bf616a;
 }
